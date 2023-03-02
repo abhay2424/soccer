@@ -1,0 +1,325 @@
+
+#title{
+    background-color: #ff4c68;
+    color: #fff
+}
+
+h1{
+    font-family:"montserrat";
+    size: 3.5rem;
+    line-height: 1.5;
+}
+h2{
+    font-family: 'montserrat-bold';
+    font-size: 4rem;
+    line-height: 1.5;
+}
+.h3{
+    font-family: 'montserrat-bold';
+    font-weight: 1000;
+}
+
+
+
+/* navar */
+
+.container-fluid{
+    padding: 3% 15% 7%;
+}
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.navbar{
+    padding: 0 0 1.5rem;
+}
+.nav-item{
+    padding:0 18px;
+    font-size: 1.2rem;
+}
+/* navbar */
+
+
+
+
+.first{
+    padding: 0 15% 5%;
+}
+.download-button{
+    margin: 5% 3% 5% 0;
+}
+.title-image{
+    width: 400px;
+    background-color: #ff4c68;
+    border-style:ridge;
+    transform: rotate(20deg);
+    position: absolute;
+}
+.title-image-div{
+    padding-left: 8%;
+    position: relative;
+}
+@media(max-width:992px){
+    #title{
+        text-align: center;
+    }
+    .title-image{
+        position: static;
+        transform: rotate(0);
+        width: 300px;
+    }
+}
+
+
+
+
+
+/* features */
+#features{
+    padding: 7%;
+    background-color: #fff;
+    position: relative;
+}
+.feature-box{
+    text-align: center;
+    padding: 5%;
+}
+p{
+    font-size: 20px;
+    color: #8f8f8f;
+    font-family: 'montserrat-light';
+}
+.icon{
+    margin: 1rem;
+    color:#ff4c68
+}
+.icon:hover{
+    color: aqua;
+}
+/* features */
+
+
+
+
+/* testimonials */
+#testimonials{
+    text-align: center;
+    background-color: #ff4c68;
+    color: #fff;
+    padding-top: 50px;
+}
+.testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+.second{
+    font-size: 50px;
+    width: 60%;
+    margin: auto;
+}
+@media(max-width:992px){
+    .second{
+        font-size: 20px;
+    }
+}
+/* testimonials */
+
+
+
+
+/* press */
+#press{
+    background-color: #ff4c68;
+    text-align: center;
+    padding-bottom: 3%;
+}
+.press-logo{
+    height: 150px;
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+@media(max-width:992px){
+    .press-logo{
+        width: 30%;
+        height: 30%;
+    }
+}
+/* press */
+
+
+
+
+
+
+/* favorite */
+#favorite{
+    text-align: center;
+    padding: 100px;
+}
+.profile{
+    text-decoration: none;
+    color: white;
+}
+.profile:hover{
+    color: lightskyblue;
+}
+.pay{
+    padding-bottom: 7%;
+}
+/* favorite */
+
+
+
+
+
+/* cta */
+#cta{
+    text-align: center;
+    background-color: #ff4c68;
+    padding: 100px;
+}
+.find{
+    font-family: 'montserrat-bold';
+    color: #fff;
+    font-size: 50px;
+    padding-bottom: 80px;
+    width: 70%;
+    margin: auto;
+}
+.f-btn{
+    margin:20px;
+}
+/* cta */
+
+
+
+
+
+
+/* footer */
+#footer{
+    background-color: #fff;
+    text-align: center;
+    padding-top: 100px;
+}
+.foot{
+    margin: 10px;
+    padding-bottom: 20px ;
+}
+.links{
+    color: black;
+}
+
+/* footer */
+
+
+
+
+
+/* gallery */
+.stadiums-image{
+    width: 400px;
+    height: 300px;
+    border-style: ridge;
+}
+#stadiums{
+    text-align: center;
+    background-color:#3A98B9;
+    padding-bottom: 80px;
+}
+.third{
+    padding: 80px;
+    z-index: -1;
+}
+.fourth{
+    color: black;
+}
+.team-1{
+    position: absolute;
+    left: 5%;
+    top: 11%;
+    width: 400px;
+    height: 300px;
+    border-style: ridge;
+    transform: rotate(-20deg);
+    z-index: +1;
+}
+.team-2{
+    position: absolute;
+    right: 5%;
+    top: 11%;
+    width: 400px;
+    height: 300px;
+    border-style: ridge;
+    transform: rotate(20deg);
+    z-index: +1;
+}
+/* golden-boot */
+.ftname{
+    padding-bottom: 10%;
+    color: #fff;
+}
+#golden-boot{
+    padding: 10% 10% 20% 10%;
+    background-color: #3A98B9;
+    text-align: center;
+   
+}
+.bd{
+   width: 400px;
+   float: right;
+   margin-right: 15%;
+}
+.bd-1{
+    width: 400px;
+    float: left;
+    margin-left: 15%;
+    padding-bottom: 6%;
+}
+.bd-2{
+    width: 400px;
+    float: right;
+    margin-right: 15%;
+    padding-bottom: 6%;
+}
+
+.ballon-dor{
+ margin-bottom: 10%;
+ 
+}
+@media(max-width:992px){
+    .bd, .bd1{
+        position: static;
+        width: 300px;
+        height: 250px;
+        float: none;
+    }
+    .team-1, .team-2{
+        width: 150px;
+        height: 100px;
+        top:180px;
+    }
+}
+.sixth, .sixth-1{
+    color: #fff;
+  
+}
+.sixth-2{
+    color: #fff;
+    padding-bottom: 5%;
+}
+
+.ftnames{
+    color: #fff;
+}
+
+
+/* gallery */
+
+
+
+
+
+
